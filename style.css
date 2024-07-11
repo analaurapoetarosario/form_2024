@@ -1,0 +1,60 @@
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Cambia el color del botón cuando el cursor pasa sobre él */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para el mensaje de error de validación (opcional) */
+input:invalid {
+    border: 2px solid red;
+}
